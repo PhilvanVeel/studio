@@ -3,7 +3,7 @@ var panorama, viewer, container, infospot, panel;
 container = document.querySelector( '#container' );
 panel = document.querySelector('#panel');
 
-panorama = new PANOLENS.ImagePanorama( 'https://i.imgur.com/Y7QY1rx.jpg' );
+panorama = new PANOLENS.ImagePanorama( 'https://i.imgur.com/R4ARuP6.jpg' );
 
 infospot = new PANOLENS.Infospot( 350, PANOLENS.DataImage.Info );
 infospot.position.set( 328.94, -164.47, -5000.00);
